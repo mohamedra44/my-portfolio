@@ -30,7 +30,7 @@ export default function Contact() {
                   className="text-second group-hover:text-white"
                   size={30}
                 />
-                <div>
+                <div className="truncate">
                   <p className="text-sm opacity-70">Email me at</p>
                   <p className="text-xl font-bold">
                     mohamedrabiema44@gmail.com
