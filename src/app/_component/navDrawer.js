@@ -26,11 +26,11 @@ export function NavDrawer() {
       <DrawerContent>
         <DrawerHeader>
           <DrawerTitle>
-            <p className="text-center text-4xl font-black">List</p>
+            <p className="text-center text-4xl font-black bg-primary w-full h-full text-white px-2 py-2 rounded-sm">
+              List
+            </p>
           </DrawerTitle>
-          <DrawerDescription>
-            <hr className={"border-black"} />
-          </DrawerDescription>
+          <DrawerDescription></DrawerDescription>
         </DrawerHeader>
         <div className="h-full flex flex-col justify-evenly items-center bg-primary text-white text-4xl">
           {" "}
