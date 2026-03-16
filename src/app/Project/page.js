@@ -5,22 +5,12 @@ import { Github, ExternalLink, Layers } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Jadoo Travel",
-      description:
-        "A modern travel agency landing page built with Next.js and Shadcn UI.",
-      image: "/jadoo-project.png", // حط مسار صورة مشروعك هنا
-      github: "https://github.com/your-username/jadoo",
-      live: "https://jadoo-live.vercel.app",
-      tags: ["Next.js", "Tailwind", "Shadcn"],
-    },
-    {
-      title: "Backend API",
-      description:
-        "Restful API built with Node.js and Express for managing e-commerce data.",
-      image: "/backend-project.png",
-      github: "https://github.com/your-username/api",
-      live: "#",
-      tags: ["Node.js", "Express", "MongoDB"],
+      title: "Attendly",
+      description: "Student attendance and absence recording program",
+      image: "/Blue Illustrative Back to School Presentation.png",
+      github: "https://github.com/mohamedra44/attendly",
+      live: "https://attendly-neon.vercel.app/",
+      tags: ["Next.js", "Google App Script", "React"],
     },
     // تقدر تضيف مشاريع أكتر هنا بنفس الطريقة
   ];
