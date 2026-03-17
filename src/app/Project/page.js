@@ -12,6 +12,14 @@ export default function Projects() {
       live: "https://attendly-neon.vercel.app/",
       tags: ["Next.js", "Google App Script", "React"],
     },
+    {
+      title: "Sontag",
+      description: "page with pure html and css",
+      image: "/undraw_our-solution_qv3b.svg",
+      github: "https://github.com/mohamedra44/sontag",
+      live: "https://mohamedra44.github.io/sontag/",
+      tags: ["html", "css"],
+    },
     // تقدر تضيف مشاريع أكتر هنا بنفس الطريقة
   ];
 
