@@ -45,13 +45,23 @@ export default function About() {
           {/* ----------------------------------------------------------------------------------------- */}
 
           <div className="flex flex-row justify-between min-w-45 mt-5 text-second">
-            <Link href={"/"}>
+            <Link
+              href={
+                "https://www.instagram.com/mohamedrabee33?igsh=bm5zeXo3a2p6ZnEw"
+              }
+              target="_blank"
+            >
               <Instagram width={40} height={40} />
             </Link>
-            <Link href={"/"}>
+            <Link
+              href={
+                "https://www.linkedin.com/in/mohamed-rabie-0495a73b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              }
+              target="_blank"
+            >
               <Linkedin width={40} height={40} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"mailto:mohamedrabiema44@gmail.com"} target="_blank">
               <Mail width={40} height={40} />
             </Link>
           </div>
