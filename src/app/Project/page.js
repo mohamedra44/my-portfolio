@@ -20,6 +20,22 @@ export default function Projects() {
       live: "https://mohamedra44.github.io/sontag/",
       tags: ["html", "css"],
     },
+    {
+      title: "inventory-app-ui",
+      description: "page with pure html and css",
+      image: "/Screenshot 2026-03-27 041720.png",
+      github: "https://github.com/mohamedra44/inventory-app-ui",
+      live: "https://inventory-app-ui-five.vercel.app/",
+      tags: ["Next.js", "Google App Script", "React", "Mongooes"],
+    },
+    {
+      title: "inventory-app-api",
+      description: "page with pure html and css",
+      image: "/backend.png",
+      github: "https://github.com/mohamedra44/inventory-app-api",
+      live: "https://inventory-app-api-beta.vercel.app/",
+      tags: ["Node js", "Express", "Mongooes"],
+    },
     // تقدر تضيف مشاريع أكتر هنا بنفس الطريقة
   ];
 
